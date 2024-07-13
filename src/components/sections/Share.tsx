@@ -37,6 +37,8 @@ function Share({ groomName, brideName, date }: ShareProps) {
   }, [])
 
   const handleShareKakao = () => {
+    const imageUrl = '/assets/poster.png' // 업로드된 이미지 URL로 교체
+
     window.Kakao.Share.sendDefault({
       objectType: 'feed',
       content: {
@@ -44,8 +46,7 @@ function Share({ groomName, brideName, date }: ShareProps) {
         description: `${format(parseISO(date), 'M월 d일 eeee aaa h시', {
           locale: ko,
         })}`,
-        imageUrl:
-          'https://png.pngtree.com/element_pic/00/16/04/1857147d5087409.jpg',
+        imageUrl: imageUrl,
         link: {
           mobileWebUrl: window.location.origin,
           webUrl: window.location.origin,

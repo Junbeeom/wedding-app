@@ -44,7 +44,8 @@ function Share({ groomName, brideName, date }: ShareProps) {
         description: `${format(parseISO(date), 'M월 d일 eeee aaa h시', {
           locale: ko,
         })}`,
-        imageUrl: 'https://ibb.co/pjqWGh3',
+        imageUrl:
+          'https://velog.velcdn.com/images/beom2day/post/1fe4f8db-25bb-4033-9b29-30f03321275c/image.png',
         link: {
           mobileWebUrl: window.location.origin,
           webUrl: window.location.origin,

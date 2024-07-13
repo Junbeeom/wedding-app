@@ -12,7 +12,8 @@ function Video() {
         autoPlay={true}
         muted={true}
         loop={true}
-        poster="/assets/poster.jpg"
+        playsInline
+        poster="/assets/poster.png"
       >
         <source src="/assets/main1.mp4" type="video/mp4"></source>
       </video>

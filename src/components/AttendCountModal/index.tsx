@@ -35,7 +35,7 @@ function AttendCountModal({ wedding }: { wedding: Wedding }) {
           return
         }
 
-        fetch('http://localhost:8888/wedding', {
+        fetch('https://hammerhead-blue-lantern.glitch.me/wedding', {
           method: 'PUT',
           body: JSON.stringify({
             ...wedding,

@@ -1,0 +1,94 @@
+{
+  "wedding": {
+    "id": 0,
+    "date": "2024-11-09T17:00:00",
+    "location": {
+      "lat": 36.34564904037292,
+      "lng": 127.35456654181259,
+      "name": "S가든웨딩홀",
+      "address": "대전 서구 월드컵대로484번안길 10\nS가든 웨딩홀",
+      "link": "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=%2C%2C579568%2C791150&rt1=&rt2=S%EA%B0%80%EB%93%A0%EC%9B%A8%EB%94%A9%ED%99%80&rtIds=%2C470062676&rtTypes=%2CPLACE",
+      "waytocome": {
+        "metro": ["셔틀버스 운행 → 분당선 수원시청역 5번출구 수시운행"],
+        "bus": [
+          "[시내버스]",
+          "대전교통공사 정류장 하차 후 도보 10분",
+          "대전일보사 방면 → 101, 103, 105, 107, 119, 213, 312, 116",
+          "만년교 방면 → 101, 103, 105, 107, 119, 312, 116"
+        ]
+      }
+    },
+    "groom": {
+      "name": "조준범",
+      "account": {
+        "bankName": "우리",
+        "accountNumber": "1002-633-208938",
+        "kakaopayLink": "https://qr.kakaopay.com/FN3lE7pDi"
+      },
+      "phoneNumber": "01045532323",
+      "parents": [
+        {
+          "name": "조상묵",
+          "account": {
+            "bankName": "국민",
+            "accountNumber": "233331-51-061400"
+          },
+          "phoneNumber": "01053242422"
+        },
+        {
+          "name": "김미숙",
+          "account": {
+            "bankName": "농협",
+            "accountNumber": "352-1252-4559-90"
+          },
+          "phoneNumber": "01054912252"
+        }
+      ]
+    },
+    "bride": {
+      "name": "민해주",
+      "account": {
+        "bankName": "농협",
+        "accountNumber": "352-0952-4669-11"
+      },
+      "phoneNumber": "01022345124",
+      "parents": [
+        {
+          "name": "민기복",
+          "account": {
+            "bankName": "카카오뱅크",
+            "accountNumber": "3333-1112-11932"
+          },
+          "phoneNumber": "01024333423"
+        },
+        {
+          "name": "박명희",
+          "account": {
+            "bankName": "국민",
+            "accountNumber": "222-19-8842-472"
+          },
+          "phoneNumber": "01099928884"
+        }
+      ]
+    }, 
+    "message": {
+      "intro": "저희의 만남이 설렘으로 다가오던 어느 날\n준범이는 해주에게 \n든든한 아름드리나무가 되어주기로 약속했습니다.\n\n어린 왕자가 자기 별을 예쁘게 가꾸듯 \n준범이는 해주라는 꽃을, \n해주는 준범이와 “우리”라는 별을 가꾸고 있어요.",
+      "invitation": "소중한 분들을 초대합니다\n살랑이는 바람결에\n사랑이 묻어나는 계절입니다.\n여기 곱고 예쁜 두 사람이 사랑을 맺어\n인생의 반려자가 되려 합니다.\n새 인생을 시작하는 이 자리에 오셔서\n축복해 주시면 감사하겠습니다."
+    },
+    "galleryImages": [
+      "/assets/images/wedding_01.jpg",
+      "/assets/images/wedding_02.jpg",
+      "/assets/images/wedding_03.jpg",
+      "/assets/images/wedding_04.jpg",
+      "/assets/images/wedding_05.jpg",
+      "/assets/images/wedding_06.jpg",
+      "/assets/images/wedding_07.jpg",
+      "/assets/images/wedding_08.jpg",
+      "/assets/images/wedding_09.jpg",
+      "/assets/images/wedding_10.jpg",
+      "/assets/images/wedding_11.jpg",
+      "/assets/images/wedding_12.jpg"
+    ],
+    "attendCount": 116
+  }
+}

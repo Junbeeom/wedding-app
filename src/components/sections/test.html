@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Main Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #dbdbdb;
+            padding: 10px 0;
+        }
+
+        header .logo img {
+            height: 40px;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        header nav ul li {
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #262626;
+        }
+
+        main {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .sidebar {
+            width: 25%;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            margin-right: 20px;
+        }
+
+        .user-profile {
+            text-align: center;
+        }
+
+        .user-profile img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+        }
+
+        .feed {
+            width: 75%;
+        }
+
+        .feed .post {
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        .feed .post img {
+            width: 100%;
+        }
+
+        .feed .post-details {
+            padding: 10px 0;
+        }
+
+        footer {
+            background-color: #fff;
+            border-top: 1px solid #dbdbdb;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Instagram Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="sidebar">
+                <div class="user-profile">
+                    <img src="user-profile.jpg" alt="User Profile">
+                    <h2>Username</h2>
+                </div>
+                <div class="suggestions">
+                    <h3>Suggestions for you</h3>
+                    <ul>
+                        <li>User 1</li>
+                        <li>User 2</li>
+                        <li>User 3</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="feed">
+                <div class="post">
+                    <img src="post1.jpg" alt="Post Image">
+                    <div class="post-details">
+                        <p><strong>Username</strong> Caption for the post...</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="post2.jpg" alt="Post Image">
+                    <div class="post-details">
+                        <p><strong>Username</strong> Caption for the post...</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Instagram</p>
+        </div>
+    </footer>
+</body>
+</html>

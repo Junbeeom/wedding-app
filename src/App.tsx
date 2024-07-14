@@ -63,7 +63,7 @@ function App() {
     groom,
     bride,
     location,
-    message: { intro, invitation },
+    message: { intro, invitation, contact },
   } = wedding
 
   return (
@@ -81,7 +81,7 @@ function App() {
       <ImageGallery images={galleryImages} />
       <Calendar date={date} />
       <Map location={location} />
-      <Contact groom={groom} bride={bride} />
+      <Contact groom={groom} bride={bride} message={contact} />
       <Share groomName={groom.name} brideName={bride.name} date={date} />
       <AttendCountModal wedding={wedding} />
     </div>

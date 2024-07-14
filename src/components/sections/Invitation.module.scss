@@ -1,3 +1,25 @@
+.wrap-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+  
+    .title {
+      font-size: 12px;
+      letter-spacing: 3px;
+      line-height: 20px;
+      opacity: .4;
+      margin-bottom: 10px;
+      font-weight: 100; /* 글자를 얇게 설정 */
+    }
+  
+    .sub-title {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+  
 .container {
     text-align: center;
     line-height: 26px;

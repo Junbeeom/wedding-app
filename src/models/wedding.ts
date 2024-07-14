@@ -8,6 +8,7 @@ export interface Wedding {
   message: {
     intro: string
     invitation: string
+    contact: string
   }
   galleryImages: string[]
   attendCount: number

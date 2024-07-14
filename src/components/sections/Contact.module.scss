@@ -1,3 +1,47 @@
+.wrap-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+
+  .title {
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    opacity: 0.4;
+    margin-bottom: 10px;
+    font-weight: 100; /* 글자를 얇게 설정 */
+  }
+
+  .sub-title {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
+.wrap-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+
+  .title {
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    opacity: 0.4;
+    margin-bottom: 10px;
+    font-weight: 100; /* 글자를 얇게 설정 */
+  }
+
+  .sub-title {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
 .wrap-contact {
   display: flex;
   padding: 8px;
@@ -27,4 +71,19 @@
       cursor: pointer;
     }
   }
-} 
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  white-space: pre-wrap; /* 텍스트 내의 개행을 유지 */
+  line-height: 30px;
+}

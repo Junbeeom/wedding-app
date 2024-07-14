@@ -85,7 +85,14 @@ function ImageGallery({ images }: { images: string[] }) {
 
   return (
     <>
-      <Section title="사진첩">
+      <Section
+        title={
+          <div className={cx('wrap-header')}>
+            <span className={cx('title')}>GALLERY</span>
+            <span className={cx('sub-title')}>우리의 순간</span>
+          </div>
+        }
+      >
         <ul className={cx('wrap-images')}>
           {visibleImages.map((src, idx) => (
             <li

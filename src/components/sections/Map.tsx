@@ -49,12 +49,15 @@ function Map({ location }: { location: Location }) {
     <Section
       title={
         <div className={cx('wrap-header')}>
-          <span className={cx('txt-title')}>오시는길</span>
-          <span className={cx('txt-subtitle')}>{location.name}</span>
-          <span className={cx('txt-subtitle')}>{location.address}</span>
+          <span className={cx('title')}>LOCATION</span>
+          <span className={cx('sub-title')}>오시는 길</span>
         </div>
       }
     >
+      <div className={cx('wrap-sub')}>
+        <span className={cx('txt-subtitle')}>{location.name}</span>
+        <span className={cx('txt-subtitle2')}>{location.address}</span>
+      </div>
       <div className={cx('wrap-map')}>
         <div className={cx('map')} ref={mapContainer}></div>
         <a className={cx('btn-find-way')} href={location.link} target="_blank">

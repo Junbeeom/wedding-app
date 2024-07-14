@@ -4,18 +4,31 @@ import styles from './Contact.module.scss'
 import Accordion from '../shared/Accordion'
 import { Person, Wedding } from '../../models/wedding'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
+import Text from '../shared/Text'
 
 const cx = classNames.bind(styles)
 
 function Contact({
   groom,
   bride,
+  message,
 }: {
   groom: Wedding['groom']
   bride: Wedding['bride']
+  message: string
 }) {
   return (
-    <Section title="연락처 및 마음 전하실 곳">
+    <Section
+      title={
+        <div className={cx('wrap-header')}>
+          <span className={cx('title')}>ACCOUNT</span>
+          <span className={cx('sub-title')}>마음 전하실 곳</span>
+        </div>
+      }
+    >
+      <div className={cx('message')}>
+        <span>{message}</span>
+      </div>
       <Accordion label="신랑측">
         <ContactInfo
           name={groom.name}

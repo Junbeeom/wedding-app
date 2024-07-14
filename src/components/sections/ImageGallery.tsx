@@ -91,9 +91,7 @@ function ImageGallery({ images }: { images: string[] }) {
             <li
               key={idx}
               className={cx('wrap-image')}
-              onClick={() => {
-                handleSelectedImage(idx)
-              }}
+              onClick={() => handleSelectedImage(idx)}
             >
               <img src={src} alt="사진첩 이미지" />
             </li>
@@ -118,6 +116,7 @@ function ImageGallery({ images }: { images: string[] }) {
           onMouseMove={handleMouseMove}
           onMouseUp={handleMouseUp}
           onMouseLeave={handleMouseUp}
+          onWheel={(e) => e.preventDefault()} // 마우스 휠 확대 방지
         >
           <button
             className={cx('close-button')}

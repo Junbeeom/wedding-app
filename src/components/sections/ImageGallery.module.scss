@@ -57,7 +57,8 @@
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  touch-action: manipulation; /* 터치 이벤트에서 핀치 줌 방지 */
+  touch-action: none; /* 터치 이벤트에서 확대/축소 방지 */
+  overflow: hidden; /* 넘치는 콘텐츠 숨기기 */
 }
 
 .selected-overlay img {
@@ -66,7 +67,7 @@
   max-height: 100%;
   object-fit: contain; /* 비율을 고정하여 이미지를 중앙에 맞춤 */
   border-radius: 0;
-  transition: transform 0.3s ease;
+  transition: none; /* 확대/축소 애니메이션 방지 */
   user-select: none; /* 텍스트 선택 방지 */
   pointer-events: none; /* 포인터 이벤트 방지 */
 }
@@ -86,5 +87,5 @@
 .close-icon {
   fill: white; /* X 아이콘을 흰색으로 설정 */
   width: 30px;
-  height: 30px;
+  height: 30px; 
 }

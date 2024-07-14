@@ -1,14 +1,11 @@
 @font-face {
-  font-family: 'GowunBatang-Regular';
+  font-family: 'GowunBatang';
   src:
-    url('/fonts/GowunBatang-Regular.woff2') format('woff2'),
-    url('/fonts/GowunBatang-Regular.woff') format('woff'),
-    url('/fonts/GowunBatang-Regular.ttf') format('truetype'),
-    // src:
-    //   url('../assets/fonts/GowunBatang-Regular.woff2') format('woff2'),
-    //   url('../assets/fonts/GowunBatang-Regular.woff') format('woff'),
-    //   url('../assets/fonts/GowunBatang-Regular.ttf') format('truetype');
-    body {
-    font-family: 'GowunBatang', sans-serif;
-  }
+    url('../assets/fonts/GowunBatang-Regular.woff2') format('woff2'),
+    url('../assets/fonts/GowunBatang-Regular.woff') format('woff'),
+    url('../assets/fonts/GowunBatang-Regular.ttf') format('truetype');
 }
+
+body {
+  font-family: 'GowunBatang', sans-serif;
+} 

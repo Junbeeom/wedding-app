@@ -1,7 +1,25 @@
+// @font-face {
+//   font-family: 'NanumBarunpenR';
+//   src:
+//     url('../assets/fonts/NanumBarunpenR.woff2') format('woff2'),
+//     url('../assets/fonts/NanumBarunpenR.woff') format('woff'),
+//     url('../assets/fonts/NanumBarunpenR.ttf') format('truetyoe');
+// }
+
+//고운바람
+// @font-face {
+//   font-family: 'GowunBatang-Regular';
+//   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff')
+//     format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+//부크크 명조
 @font-face {
-  font-family: 'NanumBarunpenR';
-  src:
-    url('../assets/fonts/NanumBarunpenR.woff2') format('woff2'),
-    url('../assets/fonts/NanumBarunpenR.woff') format('woff'),
-    url('../assets/fonts/NanumBarunpenR.ttf') format('truetyoe');
+  font-family: 'BookkMyungjo-Bd';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
 } 
